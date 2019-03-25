@@ -11,3 +11,8 @@ describe 'fizzbuzz' do
  end
 end 
 
+describe 'fizzbuzz' do
+ it 'returns "Fizzbuzz" when passed the number is divisble by 3 and 5' do
+  expect(fizzbuzz(15)).to eq 'Fizzbuzz'
+ end
+end 
